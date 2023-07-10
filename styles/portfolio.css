@@ -1,0 +1,239 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.text-color {
+  color: #fd6e0a;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+.btn {
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+.header {
+  background: #fff8f3;
+  background-image: url("/images/header_bg.png"), url('/images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+}
+.banner {
+  margin-left: 75px;
+  padding: 47px 38px 0px 71px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-dow {
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  margin-right: 20px;
+}
+.btn-con {
+  border: 1px solid orangered;
+  background-color: azure;
+  color: #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 18px 35px 19px 36px;
+}
+.banner .pro-pic {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+.par {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+/* main part */
+main {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.about {
+  padding: 131px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  /* border: 1px solid black; */
+  margin-top: 130px;
+}
+.section-tittle {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+#text {
+  padding: 30px 105px 50px 105px;
+  margin-top: 0;
+}
+.skills-container {
+  display: flex;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-right: 25px;
+}
+/* resume section title */
+.section-title-resume {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: ;
+}
+.resume-item {
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
+/* footer style */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  padding: 130px 230px;
+  margin-top: 100px;
+  gap: 117px;
+}
+.footer-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.social-media-icon> a{
+  padding-right: 20px;
+}
+.footer-colum {
+  width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  width: 461px;
+
+  
+}
+.btn-submit{
+  color: white;
+  border: 0;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
