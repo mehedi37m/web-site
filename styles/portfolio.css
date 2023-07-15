@@ -40,9 +40,9 @@ nav a {
 }
 .header {
   background: #fff8f3;
-  background-image: url("/images/header_bg.png"), url('/images/developer.png');
+  background-image: url("./images/header_bg.png"), url("/images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: bottom right, top left;
+  background-position: bottom right, bottom right;
 }
 .banner {
   margin-left: 75px;
@@ -236,4 +236,34 @@ footer {
   padding: 18px 35px 19px 36px;
   border-radius: 5px;
   background: #fd6e0a;
+}
+@media screen and (max-width: 576px){
+
+  nav,.skills-container, .resume-container, .about-info-container{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .contact input[type="text"], .contact input[type="email"], textarea{
+    width: 300px ;
+  }
+  #text, .about{
+    padding: 0;
+  }
+  .banner{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .about-info{
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+  }
+  .info-description{
+    padding-top: 5px;
+    text-align: start;
+  }
 }
